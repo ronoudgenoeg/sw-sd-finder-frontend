@@ -1,15 +1,4 @@
-# React boilerplate
-
-## A boilerplate to start developing react apps faster.
-
-### Install
-
-```
-git clone git@github.com:ronoudgenoeg/react-boilerplate.git
-git remote add origin git@github.com:username/repositoryname.git
-git push -u origin master
-```
-Replace username and repositoryname with your own.
+# Front-end for SW SD finder
 
 ### Usage
 
@@ -25,5 +14,3 @@ Commands:
 
 
 To run the distribution file copy dist/app.min.js file to your application, or use composer component installer.
-
-Start writing react code in src/containers/app.js

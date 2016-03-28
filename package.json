@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
-  "version": "1.0",
-  "description": "boilerplate",
+  "name": "sw-sd-finder-frontend",
+  "version": "0.1.0",
+  "description": "sw-sd-finder-frontend",
   "private": false,
   "scripts": {
     "setup": "npm install",

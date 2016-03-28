@@ -1,5 +1,5 @@
 {
-  "name": "ronoudgenoeg/react-boilerplate",
+  "name": "ronoudgenoeg/sw-sd-finder-frontend",
   "require": {
     "robloach/component-installer": "*"
   },
