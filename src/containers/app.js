@@ -1,20 +1,18 @@
 import React, {PropTypes as P} from 'react';
 import {connect} from 'react-redux';
 import {identity} from 'ramda';
-import {updateState} from '../actions/app';
+import {getRegions} from '../actions/regionActions';
 
 const App = React.createClass({
 
   handleOnClick: function() {
-    this.props.dispatch(updateState({
-      hello: 'world'
-    }));
+    this.props.dispatch(getRegions());
   },
 
   render: function() {
     return <div>
       <h1>Hello world</h1>
-      <button onClick={this.handleOnClick}>sets state to hello world</button>
+      <button onClick={this.handleOnClick}>get regions</button>
     </div>;
   },
 

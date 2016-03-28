@@ -1,7 +1,8 @@
-import {handleActions} from 'redux-actions';
+import {combineReducers} from 'redux';
+import region from './regionReducer';
+const config = (state = {}) => state;
 
-const reducer = handleActions({
-  UPDATE_STATE: (state, action) => action.payload
-}, {});
-
-export default reducer;
+export default combineReducers({
+  config,
+  region
+});
